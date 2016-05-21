@@ -8,27 +8,15 @@ Version: 1.0
 // Foundation 6 80rem, Grid, Visibility, Menu, Reveal, OffCanvas, Equalizer, float classes
 @import 'foundation.css';
 
+// External Libraries
 @import 'slick.css';
 
-a {
-  transition: all 0.2s;
-  text-decoration: none;
-}
 
-ul, ul.menu {
-  margin-left: 0;
-  padding-left: 0;
+// Theme
+@import '_globals';
+@import '_typography';
+@import '_colors';
 
-  li:first-child a {
-    padding-left: 0;
-  }
-}
-
-li {
-  list-style-type: none;
-
-  &:first-child {
-    margin-left: 0;
-    padding-left: 0;
-  }
-}
+// Components
+@import '_header';
+@import '_footer';
